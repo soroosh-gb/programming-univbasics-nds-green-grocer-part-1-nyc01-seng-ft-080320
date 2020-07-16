@@ -13,7 +13,6 @@ result
 end
 
 def consolidate_cart(cart)
-  # item_check = find_item_by_name_in_collection(name, cart)
   new_cart = []
   i = 0 
   while i < cart.length do
