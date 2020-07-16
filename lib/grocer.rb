@@ -26,16 +26,12 @@ def consolidate_cart(cart)
       :clearance => cart[i][:clearance],
       :count => 1 
     }
-      new_cart <<new_cart_item
-       
+      new_cart << new_cart_item
+    end 
+    i +=1 
     end
   end 
-  # while i < cart.count do
-  #   cart[i][:count] = 1  
-  #   i += 1 
-  # end
   
- cart 
   binding.pry
 end
 
